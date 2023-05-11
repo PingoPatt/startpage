@@ -99,6 +99,11 @@ const CONFIG = new Config({
             icon: 'map-pin',
             icon_color: '#faafa0'
           },
+          {
+            url: 'https://www.google.com/travel/flights',
+            icon: 'plane',
+            icon_color: '#ffc4ac'
+          },
         ]
       }
       ]
@@ -239,6 +244,12 @@ const CONFIG = new Config({
               name: 'fragrantica',
               url: 'https://www.fragrantica.com/',
               icon: 'spray',
+              icon_color: '#5d5ccc'
+            },
+            {
+              name: 'airbnb',
+              url: 'https://www.airbnb.si/',
+              icon: 'brand-airbnb',
               icon_color: '#5d5ccc'
             },
           ]
