@@ -104,7 +104,7 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'shopping',
+      name: 'shops',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [
         {
@@ -139,6 +139,12 @@ const CONFIG = new Config({
               name: 'colourpop',
               url: 'https://colourpop.com/',
               icon: 'scribble',
+              icon_color: '#b3859c'
+            },
+            {
+              name: 'licila',
+              url: 'https://www.licila.si/',
+              icon: 'eye-closed',
               icon_color: '#b3859c'
             },
             {
@@ -221,6 +227,18 @@ const CONFIG = new Config({
               name: 'tabs',
               url: 'https://www.ukulele-tabs.com/',
               icon: 'guitar-pick',
+              icon_color: '#5d5ccc'
+            },
+            {
+              name: 'cha',
+              url: 'https://www.cha.si/',
+              icon: 'leaf',
+              icon_color: '#8f6de0'
+            },
+            {
+              name: 'fragrantica',
+              url: 'https://www.fragrantica.com/',
+              icon: 'spray',
               icon_color: '#5d5ccc'
             },
           ]
