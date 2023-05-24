@@ -258,6 +258,12 @@ const CONFIG = new Config({
               icon: 'bus',
               icon_color: '#5d5cac'
             },
+            {
+              name: 'taiga',
+              url: 'https://tree.taiga.io/',
+              icon: 'clipboard-check',
+              icon_color: '#8f6de0'
+            },
           ]
         },
       ]
