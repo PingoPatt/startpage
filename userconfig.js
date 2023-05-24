@@ -102,7 +102,7 @@ const CONFIG = new Config({
           {
             url: 'https://www.google.com/travel/flights',
             icon: 'plane',
-            icon_color: '#ffc4ac'
+            icon_color: '#ebdbb2'
           },
         ]
       }
@@ -251,6 +251,12 @@ const CONFIG = new Config({
               url: 'https://www.airbnb.si/',
               icon: 'brand-airbnb',
               icon_color: '#5d5ccc'
+            },
+            {
+              name: 'arriva',
+              url: 'https://arriva.si/',
+              icon: 'bus',
+              icon_color: '#5d5cac'
             },
           ]
         },
