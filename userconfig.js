@@ -24,7 +24,8 @@ const CONFIG = new Config({
   },
   keybindings: {
     "t": 'todo-list',
-    "s": 'search-bar'
+    "s": 'search-bar',
+    "S": 'search-bar'
   },
   disabled: [
     'crypto-rate',
@@ -77,12 +78,17 @@ const CONFIG = new Config({
         ]
       },
       {
-        name: 'Google',
+        name: 'Google & Tools',
         links: [
           {
             url: 'https://mail.google.com/',
             icon: 'mail',
             icon_color: '#ec4d9a'
+          },
+          {
+            url: 'https://simplenote.com/',
+            icon: 'note',
+            icon_color: '#206bc4'
           },
           {
             url: 'https://translate.google.com/',
@@ -102,7 +108,7 @@ const CONFIG = new Config({
           {
             url: 'https://www.google.com/travel/flights',
             icon: 'plane',
-            icon_color: '#ebdbb2'
+            icon_color: '#ffc4ac'
           },
         ]
       }
@@ -135,6 +141,11 @@ const CONFIG = new Config({
               icon: 'package',
               icon_color: '#fdc619',
             },
+            {
+              url: 'https://www.ceneje.si/',
+              icon: 'coin-euro',
+              icon_color: '#fab315',
+            },
           ]
         },
         {
@@ -164,6 +175,12 @@ const CONFIG = new Config({
               icon: 'flower',
               icon_color: '#6d8dae'
             },
+            {
+              name: 'yesstyle',
+              url: 'https://www.yesstyle.com',
+              icon: 'shopping-bag',
+              icon_color: '#66c19a'
+            },
           ]
         },
         {
@@ -186,6 +203,12 @@ const CONFIG = new Config({
               url: 'https://www.shopcider.com/',
               icon: 'milkshake',
               icon_color: '#76dc76'
+            },
+            {
+              name: 'koifootwear',
+              url: 'https://www.koifootwear.com/',
+              icon: 'storm',
+              icon_color: '#829900'
             },
           ]
         },
